@@ -1,0 +1,18 @@
+- key: lsbeat
+  title: lsbeat
+  description:
+  fields:
+    - name: counter
+      type: long
+      required: true
+      description: >
+        PLEASE UPDATE DOCUMENTATION
+    - name: modtime
+      type: date
+    - name: filename
+      type: text
+    - name: path
+    - name: directory
+      type: boolean
+    - name: filesize
+      type: long
